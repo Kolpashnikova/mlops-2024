@@ -1,0 +1,51 @@
+{
+  "id": "f79bf7c4-9c9b-4912-8768-011217be2e3b",
+  "name": "Homework Project",
+  "description": "My project descriotion",
+  "dashboard": {
+    "name": "Homework Project",
+    "panels": [
+      {
+        "type": "evidently.ui.dashboards.reports.DashboardPanelCounter",
+        "id": "82487fb8-5391-46af-ae11-9805b37c0528",
+        "title": "Homework data dashboard",
+        "filter": {
+          "metadata_values": {},
+          "tag_values": [],
+          "include_test_suites": false
+        },
+        "size": 2,
+        "agg": "none",
+        "value": null,
+        "text": null
+      },
+      {
+        "type": "evidently.ui.dashboards.reports.DashboardPanelPlot",
+        "id": "7adc0c0b-f957-4f58-bc37-19e2038ddfb5",
+        "title": "Current quantile value",
+        "filter": {
+          "metadata_values": {},
+          "tag_values": [],
+          "include_test_suites": false
+        },
+        "size": 1,
+        "values": [
+          {
+            "field_path": "current.value",
+            "metric_id": "ColumnQuantileMetric",
+            "metric_fingerprint": null,
+            "metric_args": {},
+            "legend": "value"
+          }
+        ],
+        "plot_type": "line"
+      }
+    ],
+    "tabs": [],
+    "tab_id_to_panel_ids": {}
+  },
+  "team_id": null,
+  "date_from": null,
+  "date_to": null,
+  "created_at": "2024-06-24T01:50:52.033193"
+}
