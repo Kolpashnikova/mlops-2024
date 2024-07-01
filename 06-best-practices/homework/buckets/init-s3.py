@@ -7,4 +7,5 @@ s3_client = boto3.client(
     aws_secret_access_key="test"
 )
 
-s3_client.create_bucket(Bucket="your-bucket")
+s3_client.create_bucket(Bucket="nyc-duration")
+
