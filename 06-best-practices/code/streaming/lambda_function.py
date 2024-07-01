@@ -5,7 +5,7 @@ import base64
 
 import mlflow
 
-kinesis_client = boto3.client('kinesis')
+kinesis_client = boto3.client('kinesis', region_name='us-west-2')
 
 PREDICTIONS_STREAM_NAME = os.getenv('PREDICTIONS_STREAM_NAME', 'ride_predictions')
 
