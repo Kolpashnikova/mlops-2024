@@ -1,0 +1,5 @@
+name: prefect-ops
+dependencies:
+  - python=3.9.12
+  - numpy
+  - pandas
